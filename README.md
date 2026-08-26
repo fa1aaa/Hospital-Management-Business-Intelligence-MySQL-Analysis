@@ -547,39 +547,16 @@ The SQL results were translated into a Power BI dashboard concept.
 
 **6. Most Prescribed Medications** 
 
-<img width="1131" height="1213" alt="Image" src="https://github.com/user-attachments/assets/dd3c6e5e-dc64-474e-bc9c-12947ed3a395" />
-<img width="1108" height="1230" alt="Image" src="https://github.com/user-attachments/assets/d2f71d59-bed0-4b20-baa6-3d5fb29fffb0" />
 <img width="1129" height="1207" alt="Image" src="https://github.com/user-attachments/assets/bd74f14e-a962-4db5-9c6e-f788f534c1f6" />
 
-<img width="1125" height="1223" alt="Image" src="https://github.com/user-attachments/assets/689e201e-8689-405d-96fe-827f86717c18" />
-<img width="1129" height="1201" alt="Image" src="https://github.com/user-attachments/assets/fa558697-a514-47cc-ba00-eca0653aefc8" />
-<img width="1129" height="1203" alt="Image" src="https://github.com/user-attachments/assets/3ceb6635-30f0-48d9-8ba4-4bab7b36465b" />
-<img width="1133" height="1203" alt="Image" src="https://github.com/user-attachments/assets/de04fe6a-ba1e-423f-abd6-4f9db2c51906" />
-<img width="1124" height="1225" alt="Image" src="https://github.com/user-attachments/assets/fb82df39-4a17-45b8-a73b-3133581b7ff8" />
 
 **7. Most Patients by Age** 
 
-<img width="1131" height="1213" alt="Image" src="https://github.com/user-attachments/assets/dd3c6e5e-dc64-474e-bc9c-12947ed3a395" />
 <img width="1108" height="1230" alt="Image" src="https://github.com/user-attachments/assets/d2f71d59-bed0-4b20-baa6-3d5fb29fffb0" />
-<img width="1129" height="1207" alt="Image" src="https://github.com/user-attachments/assets/bd74f14e-a962-4db5-9c6e-f788f534c1f6" />
-
-<img width="1125" height="1223" alt="Image" src="https://github.com/user-attachments/assets/689e201e-8689-405d-96fe-827f86717c18" />
-<img width="1129" height="1201" alt="Image" src="https://github.com/user-attachments/assets/fa558697-a514-47cc-ba00-eca0653aefc8" />
-<img width="1129" height="1203" alt="Image" src="https://github.com/user-attachments/assets/3ceb6635-30f0-48d9-8ba4-4bab7b36465b" />
-<img width="1133" height="1203" alt="Image" src="https://github.com/user-attachments/assets/de04fe6a-ba1e-423f-abd6-4f9db2c51906" />
-<img width="1124" height="1225" alt="Image" src="https://github.com/user-attachments/assets/fb82df39-4a17-45b8-a73b-3133581b7ff8" />
 
 **8. Largest Department by bed Capacity**
 
 <img width="1131" height="1213" alt="Image" src="https://github.com/user-attachments/assets/dd3c6e5e-dc64-474e-bc9c-12947ed3a395" />
-<img width="1108" height="1230" alt="Image" src="https://github.com/user-attachments/assets/d2f71d59-bed0-4b20-baa6-3d5fb29fffb0" />
-<img width="1129" height="1207" alt="Image" src="https://github.com/user-attachments/assets/bd74f14e-a962-4db5-9c6e-f788f534c1f6" />
-
-<img width="1125" height="1223" alt="Image" src="https://github.com/user-attachments/assets/689e201e-8689-405d-96fe-827f86717c18" />
-<img width="1129" height="1201" alt="Image" src="https://github.com/user-attachments/assets/fa558697-a514-47cc-ba00-eca0653aefc8" />
-<img width="1129" height="1203" alt="Image" src="https://github.com/user-attachments/assets/3ceb6635-30f0-48d9-8ba4-4bab7b36465b" />
-<img width="1133" height="1203" alt="Image" src="https://github.com/user-attachments/assets/de04fe6a-ba1e-423f-abd6-4f9db2c51906" />
-<img width="1124" height="1225" alt="Image" src="https://github.com/user-attachments/assets/fb82df39-4a17-45b8-a73b-3133581b7ff8" /t>
 
 ---
 
@@ -652,26 +629,6 @@ hospital-management-bi/
 
 ---
 
-## ▶️ How to Run
-
-**MySQL Workbench**
-1. Open MySQL Workbench.
-2. Create or select the hospital database.
-3. Run the database setup SQL file.
-4. Open `hospital_queries.sql`.
-5. Execute each query individually.
-6. Review the result sets.
-
-**Power BI**
-1. Import the prepared hospital dataset.
-2. Create the required table relationships.
-3. Add KPIs and charts.
-4. Add interactive slicers.
-5. Create the dashboard pages.
-6. Use the SQL results to support business insights.
-
----
-
 ## ✅ Project Outcome
 
 This project demonstrates an end-to-end analytics workflow:
@@ -698,4 +655,3 @@ SQL | Data Analytics | Business Intelligence
 
 ---
 
-If you found this project useful, feel free to explore the repository.
