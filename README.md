@@ -517,7 +517,7 @@ ORDER BY appointment_count DESC;
 
 ---
 
-## 📊 Business Intelligence Dashboard
+## 📊 Data Visualisation 
 
 The SQL results were translated into a Power BI dashboard concept.
 
