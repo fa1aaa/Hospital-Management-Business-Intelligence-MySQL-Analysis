@@ -523,40 +523,27 @@ The SQL results were translated into a Power BI dashboard concept.
 
 **1. Appointment Volume Trend** 
 
-<img width="1131" height="1213" alt="Image" src="https://github.com/user-attachments/assets/dd3c6e5e-dc64-474e-bc9c-12947ed3a395" />
+<img width="1124" height="1225" alt="Image" src="https://github.com/user-attachments/assets/fb82df39-4a17-45b8-a73b-3133581b7ff8" />
 
 **2. Appointments Reasons**
 
-<img width="1108" height="1230" alt="Image" src="https://github.com/user-attachments/assets/d2f71d59-bed0-4b20-baa6-3d5fb29fffb0" />
+<img width="1133" height="1203" alt="Image" src="https://github.com/user-attachments/assets/de04fe6a-ba1e-423f-abd6-4f9db2c51906" />
 
 **3. Hospital with most Appointments**  
 
-<img width="1129" height="1207" alt="Image" src="https://github.com/user-attachments/assets/bd74f14e-a962-4db5-9c6e-f788f534c1f6" />
+<img width="1129" height="1203" alt="Image" src="https://github.com/user-attachments/assets/3ceb6635-30f0-48d9-8ba4-4bab7b36465b" />
+
 
 
 **4. Staffing VS Demand by Speciality** 
 
-<img width="1131" height="1213" alt="Image" src="https://github.com/user-attachments/assets/dd3c6e5e-dc64-474e-bc9c-12947ed3a395" />
-<img width="1108" height="1230" alt="Image" src="https://github.com/user-attachments/assets/d2f71d59-bed0-4b20-baa6-3d5fb29fffb0" />
-<img width="1129" height="1207" alt="Image" src="https://github.com/user-attachments/assets/bd74f14e-a962-4db5-9c6e-f788f534c1f6" />
-
-<img width="1125" height="1223" alt="Image" src="https://github.com/user-attachments/assets/689e201e-8689-405d-96fe-827f86717c18" />
 <img width="1129" height="1201" alt="Image" src="https://github.com/user-attachments/assets/fa558697-a514-47cc-ba00-eca0653aefc8" />
-<img width="1129" height="1203" alt="Image" src="https://github.com/user-attachments/assets/3ceb6635-30f0-48d9-8ba4-4bab7b36465b" />
-<img width="1133" height="1203" alt="Image" src="https://github.com/user-attachments/assets/de04fe6a-ba1e-423f-abd6-4f9db2c51906" />
-<img width="1124" height="1225" alt="Image" src="https://github.com/user-attachments/assets/fb82df39-4a17-45b8-a73b-3133581b7ff8" />
+
 
 **5. Busiest Doctors by Appointments** 
 
-<img width="1131" height="1213" alt="Image" src="https://github.com/user-attachments/assets/dd3c6e5e-dc64-474e-bc9c-12947ed3a395" />
-<img width="1108" height="1230" alt="Image" src="https://github.com/user-attachments/assets/d2f71d59-bed0-4b20-baa6-3d5fb29fffb0" />
-<img width="1129" height="1207" alt="Image" src="https://github.com/user-attachments/assets/bd74f14e-a962-4db5-9c6e-f788f534c1f6" />
-
 <img width="1125" height="1223" alt="Image" src="https://github.com/user-attachments/assets/689e201e-8689-405d-96fe-827f86717c18" />
-<img width="1129" height="1201" alt="Image" src="https://github.com/user-attachments/assets/fa558697-a514-47cc-ba00-eca0653aefc8" />
-<img width="1129" height="1203" alt="Image" src="https://github.com/user-attachments/assets/3ceb6635-30f0-48d9-8ba4-4bab7b36465b" />
-<img width="1133" height="1203" alt="Image" src="https://github.com/user-attachments/assets/de04fe6a-ba1e-423f-abd6-4f9db2c51906" />
-<img width="1124" height="1225" alt="Image" src="https://github.com/user-attachments/assets/fb82df39-4a17-45b8-a73b-3133581b7ff8" />
+
 
 **6. Most Prescribed Medications** 
 
@@ -592,7 +579,7 @@ The SQL results were translated into a Power BI dashboard concept.
 <img width="1129" height="1201" alt="Image" src="https://github.com/user-attachments/assets/fa558697-a514-47cc-ba00-eca0653aefc8" />
 <img width="1129" height="1203" alt="Image" src="https://github.com/user-attachments/assets/3ceb6635-30f0-48d9-8ba4-4bab7b36465b" />
 <img width="1133" height="1203" alt="Image" src="https://github.com/user-attachments/assets/de04fe6a-ba1e-423f-abd6-4f9db2c51906" />
-<img width="1124" height="1225" alt="Image" src="https://github.com/user-attachments/assets/fb82df39-4a17-45b8-a73b-3133581b7ff8" />
+<img width="1124" height="1225" alt="Image" src="https://github.com/user-attachments/assets/fb82df39-4a17-45b8-a73b-3133581b7ff8" /t>
 
 ---
 
