@@ -519,31 +519,26 @@ ORDER BY appointment_count DESC;
 
 ## 📊 Business Intelligence Dashboard
 
-The SQL results were translated into a Power BI dashboard concept with multiple analytical pages.
+The SQL results were translated into a Power BI dashboard concept.
 
-**1. Executive Overview** — Total appointments, patients, doctors, hospitals, emergency appointments, room capacity, monthly trend, appointments by hospital
+**1. Appointment Volume Trend** 
 
-**2. Appointments & Patient Flow** — Appointment trends, appointment reasons, age-group analysis, returning patients, hospital appointment volume
+**2. Appointments Reasons**
 
-**3. Doctor Workforce** — Doctor workload ranking, appointments by specialty, doctors with zero appointments, hospital-level workload comparison
+**3. Hospital with most Appointments**  
 
-**4. Hospital Capacity** — Room capacity by hospital, department capacity, Cardiology room capacity, demand vs. capacity
+**4. Staffing VS Demand by Speciality** 
 
-**5. Medications & Prescriptions** — Most prescribed medications, prescription activity, doctors without prescriptions, patients with multiple medications
+**5. Busiest Doctors by Appointments** 
 
-**6. SQL Query Results** — A dedicated page containing readable outputs of the 24 SQL queries
+**6. Most Prescribed Medications** 
 
-**7. Business Solutions** — Recommendations based on the analysis
+**7. Most Patients by Age** 
 
-### Interactive Filters
-
-Hospital · Specialty · Appointment Reason · Month · Age Group · Department
-
+**8. Largest Department by bed Capacity**
 ---
 
 ## 💡 Business Solutions
-
-**Appointment Optimization** — Separate emergency, consultation, checkup, and follow-up appointments to improve scheduling efficiency.
 
 **Doctor Workload Management** — Monitor appointment distribution and identify doctors with unusually high or low workloads.
 
