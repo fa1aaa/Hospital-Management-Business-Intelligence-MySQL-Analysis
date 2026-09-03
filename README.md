@@ -71,6 +71,20 @@ ORDER BY r.room_no;
 ```
 *Concepts: `JOIN`, `WHERE`, `ORDER BY`*
 
+**Result**
+
+<img width="110" height="120" alt="Image" src="https://github.com/user-attachments/assets/d06cfaf3-8dc0-4cd4-b83e-ef5f7cbb3de5" />
+
+There are **7 rooms** in the Neurology Department.
+
+**Room 303** has the highest capacity, with a capacity of **4 patients**.
+
+**Key Insight**
+
+Room 303 represents the largest available room in the Neurology Department and may be useful when prioritizing room allocation for larger patient groups.
+
+---
+
 **2. Appointments from today onwards**
 ```sql
 SELECT *
@@ -79,6 +93,19 @@ WHERE appointment_date >= CURDATE()
 ORDER BY appointment_date;
 ```
 *Concepts: Date filtering, `CURDATE()`, `ORDER BY`*
+**Result**
+
+There is **only 1 appointment from today onwards**.
+
+| Date | Appointment Type | Doctor | Specialty |
+|---|---|---|---|
+| 2026-09-03 | Consultation | Robert Chan | Emergency Medicine |
+
+**Key Insight**
+
+Only one upcoming appointment was identified from the current date, September 3, 2026.
+
+---
 
 **3. Patients with more than 3 appointments**
 ```sql
@@ -94,6 +121,18 @@ HAVING COUNT(a.appointment_id) > 3
 ORDER BY appointment_count DESC;
 ```
 *Concepts: `JOIN`, `COUNT()`, `GROUP BY`, `HAVING`*
+
+**Result**
+
+There are **no patients with more than 3 appointments**.
+
+The maximum number of appointments for any patient is **3**.
+
+**Key Insight**
+
+The dataset does not contain patients with unusually high appointment frequency. The maximum recorded appointment count is three.
+
+---
 
 **4. Appointments with patient and doctor details**
 ```sql
@@ -113,6 +152,13 @@ ORDER BY a.appointment_date;
 ```
 *Concepts: Multiple `JOIN`s, aliases, sorting*
 
+**Result**
+
+<img width="364" height="224" alt="Image" src="https://github.com/user-attachments/assets/23b3da92-7237-4678-aba7-d9d66f856fb2" />
+
+Further table results are present in .sql file.
+
+---
 **5. Patients with appointments in August 2026**
 ```sql
 SELECT
@@ -127,6 +173,19 @@ WHERE a.appointment_date >= '2026-08-01'
 ORDER BY a.appointment_date;
 ```
 *Concepts: Date range filtering, `JOIN`*
+
+**Result**
+
+<img width="303" height="179" alt="Image" src="https://github.com/user-attachments/assets/371202b7-0505-4784-a093-934e55571dd0" />
+
+There are **13 patients** who have appointments in August.
+
+**Key Insight**
+
+August shows notable patient appointment activity, with 13 patients scheduled during the month.
+
+---
+
 
 **6. Medications related to pain or infection**
 ```sql
