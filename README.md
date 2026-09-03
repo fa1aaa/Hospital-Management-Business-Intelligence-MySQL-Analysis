@@ -382,6 +382,18 @@ ORDER BY hospital_name, hospital_rank;
 ```
 *Concepts: CTE, `DENSE_RANK()`, window functions*
 
+**Result**
+
+<img width="1125" height="1223" alt="Image" src="https://github.com/user-attachments/assets/fd4eebf4-692a-4857-8a2c-d90d5fc2db88" />
+
+### Key Insight
+
+The hospital-level analysis shows differences in appointment volume and monthly activity.
+
+**Silver Oak Medical Center** has the highest overall number of appointments with **14**, followed by **Harmony Hill Hospital with 13**.
+
+---
+
 **11. Doctors with zero appointments**
 ```sql
 SELECT
@@ -398,6 +410,16 @@ WHERE a.appointment_id IS NULL
 ORDER BY hospital_name, d.name;
 ```
 *Concepts: `LEFT JOIN`, `IS NULL`*
+
+**Result**
+
+There are **no doctors with zero appointments**.
+
+**Key Insight**
+
+Every doctor in the dataset has at least one recorded appointment.
+
+---
 
 **12. Last two appointments for each patient**
 ```sql
@@ -422,6 +444,28 @@ ORDER BY patient_name, ra.appointment_date DESC;
 ```
 *Concepts: CTE, `ROW_NUMBER()`, `PARTITION BY`*
 
+**Result**
+
+The analysis compares the number of days between a patient's previous appointment and current appointment.
+
+**Largest Difference**
+
+**Erica Jimenez**
+
+- Appointment gap: **195 days**
+
+**Smallest Difference**
+
+**Sean Green**
+
+- Appointment gap: **3 days**
+
+**Key Insight**
+
+Erica Jimenez has the largest gap between appointments, while Sean Green has the shortest gap and all other patients fall in between
+
+---
+
 **13. Emergency appointments by age group**
 
 Age criteria: 18 or below → Pediatric · 19–64 → Adult · 65+ → Geriatric
@@ -442,6 +486,18 @@ WHERE a.reason = 'Emergency'
 ORDER BY a.appointment_date;
 ```
 *Concepts: `CASE`, `TIMESTAMPDIFF()`, joins*
+
+**Result**
+
+<img width="286" height="257" alt="Image" src="https://github.com/user-attachments/assets/ee35a3b1-a864-4bbf-b61f-29c10e864d73" />
+
+There are **24 patients** who have seen doctors from multiple specialties.
+
+**Key Insight**
+
+These patients may require care from multiple departments, making coordination between medical specialties important for effective patient management.
+
+---
 
 **14. Cardiology consultations by age group**
 ```sql
