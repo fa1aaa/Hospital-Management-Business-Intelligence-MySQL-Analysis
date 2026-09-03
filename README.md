@@ -491,12 +491,6 @@ ORDER BY a.appointment_date;
 
 <img width="286" height="257" alt="Image" src="https://github.com/user-attachments/assets/ee35a3b1-a864-4bbf-b61f-29c10e864d73" />
 
-There are **24 patients** who have seen doctors from multiple specialties.
-
-**Key Insight**
-
-These patients may require care from multiple departments, making coordination between medical specialties important for effective patient management.
-
 ---
 
 **14. Cardiology consultations by age group**
@@ -518,6 +512,12 @@ WHERE a.reason = 'Consultation'
 GROUP BY age_group;
 ```
 *Concepts: `CASE`, joins, aggregation*
+
+**Result**
+
+<img width="137" height="61" alt="Image" src="https://github.com/user-attachments/assets/aceeeecb-f407-46fc-88eb-23d3b2d46d57" />
+
+---
 
 **15. Third most frequently prescribed medication(s)**
 ```sql
@@ -547,6 +547,13 @@ WHERE frequency_rank = 3;
 ```
 *Concepts: CTEs, `DENSE_RANK()`, aggregation, ties*
 
+**Result**
+Most frequently prescribed medications are:
+
+<img width="242" height="101" alt="Image" src="https://github.com/user-attachments/assets/79dcef40-65d0-445f-91c3-b2c5abf39c41" />
+
+---
+
 **16. Hospitals with the lowest doctor count**
 ```sql
 WITH hospital_doctors AS (
@@ -569,6 +576,13 @@ WHERE doctor_count = (
 );
 ```
 *Concepts: CTE, subquery, `MIN()`*
+
+**Result**
+There are 3 hospitals with lowest doctor count.
+
+<img width="272" height="64" alt="Image" src="https://github.com/user-attachments/assets/1682cff9-d76f-4a19-9c36-63aaeb3fe467" />
+
+---
 
 **17. Hospital(s) with the most Cardiology rooms**
 ```sql
