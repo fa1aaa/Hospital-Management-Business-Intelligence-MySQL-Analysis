@@ -260,6 +260,21 @@ ORDER BY medication_count DESC;
 ```
 *Concepts: `COUNT(DISTINCT)`, `GROUP BY`, `HAVING`*
 
+**Result**
+
+<img width="229" height="185" alt="Image" src="https://github.com/user-attachments/assets/90d43e64-4b6f-496b-b4f2-3d48bdb65579" />
+
+There are **12 patients** who have been prescribed more than one medication.
+
+**Taylor Johnson** has the highest count, with **4 medications**.
+
+**Key Insight**
+
+Taylor Johnson has the highest number of prescribed medications among patients with multiple prescriptions.
+
+---
+
+
 **9. Monthly appointments by hospital**
 ```sql
 SELECT
@@ -278,6 +293,63 @@ GROUP BY
 ORDER BY appointment_month, hospital_name;
 ```
 *Concepts: Date functions, aggregation, multiple joins*
+
+**Results**
+
+**Green Valley Medical Center**
+- Highest appointments: **February 2026**
+- Monthly count: **3**
+- Overall appointments: **12**
+
+**Riverside General Hospital**
+- Highest appointments: **February 2026 — 3**
+- Highest appointments: **July 2026 — 3**
+- Overall appointments: **12**
+
+**Cedar Grove Community Hospital**
+- Highest appointments: **May 2026 — 2**
+- Overall appointments: **4**
+
+**Northwind Regional Medical Center**
+- Highest appointments: **March 2026 — 3**
+- Overall appointments: **10**
+
+**Lakeside Healthcare Institute**
+There is **1 appointment** in each of the following months:
+- January
+- March
+- April
+- August
+Overall appointments: **4**
+
+**Harmony Hill Hospital**
+- Highest appointments: **January 2026**
+- Monthly count: **4**
+- Overall appointments: **13**
+
+**Silver Oak Medical Center**
+- Highest appointments: **August 2026**
+- Monthly count: **4**
+- Overall appointments: **14**
+⭐ **Highest overall appointment count among the hospitals analyzed.**
+
+**Maplewood General Hospital**
+
+Overall appointments from January 2026 to today:
+**7 appointments**
+
+**Pinecrest Medical Pavilion**
+- Highest appointments: **April 2026**
+- Monthly count: **3**
+- Overall appointments: **11**
+
+**Oceanview Health Center**
+
+Overall appointments from January 2026 to today:
+**12 appointments**
+
+---
+
 
 **10. Rank doctors by appointments within each hospital**
 ```sql
