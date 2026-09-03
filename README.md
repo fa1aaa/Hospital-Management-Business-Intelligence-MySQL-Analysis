@@ -200,6 +200,23 @@ ORDER BY name;
 ```
 *Concepts: `LIKE`, `LOWER()`, conditional filtering*
 
+**Result**
+
+<img width="346" height="167" alt="Image" src="https://github.com/user-attachments/assets/e95a1637-d817-4cef-ae14-c9e1b9721b82" />
+
+There are **11 medications** containing either:
+
+- `"pain"`
+- `"infection"`
+
+in their description.
+
+**Key Insight**
+
+Keyword-based medication analysis can help identify medications associated with common treatment categories such as pain management and infection treatment.
+
+---
+
 **7. Doctors who have not prescribed any medication**
 ```sql
 SELECT
@@ -213,6 +230,20 @@ WHERE pr.prescription_id IS NULL
 ORDER BY d.name;
 ```
 *Concepts: `LEFT JOIN`, `IS NULL`*
+
+**Result**
+
+<img width="224" height="78" alt="Image" src="https://github.com/user-attachments/assets/bc1737a1-aff5-4a88-93aa-5b11b0333d8f" />
+
+There is **only 1 cardiologist** who has not prescribed any medication.
+
+**Doctor:** Lisa Murphy
+
+**Key Insight**
+
+Dr. Lisa Murphy is the only cardiologist in the dataset without a recorded medication prescription.
+
+---
 
 **8. Patients prescribed more than one medication**
 ```sql
