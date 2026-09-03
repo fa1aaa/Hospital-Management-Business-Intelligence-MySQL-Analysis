@@ -610,6 +610,12 @@ WHERE room_count = (
 ```
 *Concepts: CTE, `MAX()`, joins, subquery*
 
+**Results**
+
+<img width="252" height="53" alt="Image" src="https://github.com/user-attachments/assets/166b1f99-fcb5-4572-b8da-3d82237793d2" />
+
+---
+
 **18. Days between appointments for returning patients**
 ```sql
 WITH ordered_appointments AS (
@@ -635,6 +641,8 @@ ORDER BY patient_name, appointment_date;
 ```
 *Concepts: `LAG()`, `DATEDIFF()`, window functions, CTE*
 
+---
+
 **19. Patients who visited multiple specialties**
 ```sql
 SELECT
@@ -651,6 +659,8 @@ HAVING COUNT(DISTINCT d.specialty) > 1
 ORDER BY specialty_count DESC;
 ```
 *Concepts: Multiple joins, `COUNT(DISTINCT)`, `HAVING`*
+
+---
 
 **20. Second-largest department room capacity in each hospital**
 ```sql
@@ -691,7 +701,7 @@ ORDER BY hospital_name;
 ```
 *Concepts: CTE, `SUM()`, `COALESCE()`, `DENSE_RANK()`, window functions*
 
-### Bonus Queries & Further Insights
+---
 
 **21. Specialist distribution by hospital**
 ```sql
@@ -705,6 +715,8 @@ JOIN hospitals h
 GROUP BY h.hospital_id, h.name, d.specialty
 ORDER BY specialist_count DESC;
 ```
+
+---
 
 **22. Average room capacity per department and hospital**
 ```sql
@@ -720,6 +732,7 @@ JOIN hospitals h
 GROUP BY h.name, d.name
 ORDER BY average_room_capacity DESC;
 ```
+---
 
 **23. Monthly appointment trend**
 ```sql
@@ -730,6 +743,12 @@ FROM appointments
 GROUP BY DATE_FORMAT(appointment_date, '%Y-%m')
 ORDER BY month;
 ```
+**Result**
+<img width="146" height="140" alt="Image" src="https://github.com/user-attachments/assets/426687a6-7019-48a8-8688-5e69ea4a9c28" />
+
+<img width="1124" height="1225" alt="Image" src="https://github.com/user-attachments/assets/fb82df39-4a17-45b8-a73b-3133581b7ff8" />
+
+---
 
 **24. Most frequent appointment reasons**
 ```sql
@@ -740,6 +759,8 @@ FROM appointments
 GROUP BY reason
 ORDER BY appointment_count DESC;
 ```
+**Results**
+<img width="167" height="83" alt="Image" src="https://github.com/user-attachments/assets/b679d33f-29e4-434b-bfd8-6afa003f1bfe" />
 
 ---
 
